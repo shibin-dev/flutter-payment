@@ -33,7 +33,7 @@ class Products extends StatelessWidget{
           padding: const EdgeInsets.all(40.0),
           child: Column(
             children:[
-              const SelectableText("My Payment",style:TextStyle(color: Colors.black,fontWeight: FontWeight.bold,letterSpacing: 2.0,fontSize: 40)),
+              const SelectableText("My Payment mob",style:TextStyle(color: Colors.black,fontWeight: FontWeight.bold,letterSpacing: 2.0,fontSize: 40)),
               const SizedBox(height:20),
               // StreamBuilder<QuerySnapshot>(
               //   stream: FirebaseFirestore.instance.collection('Products').snapshots(),
